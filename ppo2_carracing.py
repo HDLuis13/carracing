@@ -120,16 +120,18 @@ env = create_car_racing_env()
 env = dummy_vec_env.DummyVecEnv([lambda: env])
 
 print(env.action_space)
+print(env.observation_space)
 
 # model = PPO2.load("ppo2_carracing-v3-prep")
 # model.set_env(env)
 
 
-model = PPO2(CnnPolicy, env, verbose=2, full_tensorboard_log=True)
+model = PPO2(CnnPolicy, env, verbose=2, full_tensorboard_log='ppo2_carracing_tensorboard')
+# model = PPO2(CnnPolicy, env, verbose=1)
 
-model.learn(total_timesteps=1000)
-#
-# model.save("ppo2_carracing-v4-prep")
+model.learn(total_timesteps=10000)
+
+model.save("ppo2_carracing-v1")
 
 # Enjoy trained agent
 obs = env.reset()
