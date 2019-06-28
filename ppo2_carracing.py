@@ -9,6 +9,7 @@ from stable_baselines.common.policies import CnnPolicy
 from stable_baselines import PPO2
 from stable_baselines.common.vec_env import dummy_vec_env, subproc_vec_env
 
+import matplotlib.pyplot as plt
 
 
 def create_car_racing_env():
@@ -16,8 +17,8 @@ def create_car_racing_env():
     # env = Vectorize(env)
     # env = CarRacingRescale32x32(env)
     #env = NormalizedEnv(env)
-    #env = CarRacingDiscreteActions(env)
-    env = PreProcessObservation(env)
+    # env = CarRacingDiscreteActions(env)
+    # env = PreProcessObservation(env)
     # env = Unvectorize(env)
     return env
 
@@ -54,22 +55,22 @@ class CarRacingDiscreteActions(gym.ActionWrapper):
         # return action_n
         return [self._make_continuous_action(a) for a in action_n]
 
-class CarRacingRescale32x32(gym.ObservationWrapper):
-
-    def __init__(self, env=None):
-        super(CarRacingRescale32x32, self).__init__(env)
-        self.observation_space = Box(0.0, 1.0, [1, 32, 32])
-
-    def _process_frame32(self, frame):
-        frame = cv2.resize(frame, (32, 32))
-        frame = frame.mean(2)
-        frame = frame.astype(np.float32)
-        frame *= (1.0 / 255.0)
-        frame = np.reshape(frame, [1, 32, 32])
-        return frame
-
-    def _observation(self, observation_n):
-        return [self._process_frame32(obs) for obs in observation_n]
+# class CarRacingRescale32x32(gym.ObservationWrapper):
+#
+#     def __init__(self, env=None):
+#         super(CarRacingRescale32x32, self).__init__(env)
+#         self.observation_space = Box(0.0, 1.0, [1, 32, 32])
+#
+#     def _process_frame32(self, frame):
+#         frame = cv2.resize(frame, (32, 32))
+#         frame = frame.mean(2)
+#         frame = frame.astype(np.float32)
+#         frame *= (1.0 / 255.0)
+#         frame = np.reshape(frame, [1, 32, 32])
+#         return frame
+#
+#     def _observation(self, observation_n):
+#         return [self._process_frame32(obs) for obs in observation_n]
 
 
 class NormalizedEnv(gym.ObservationWrapper):
@@ -102,11 +103,12 @@ class PreProcessObservation(gym.ObservationWrapper):
         gym.ObservationWrapper.__init__(self, env)
         # Define a new Box
         self.observation_space = Box(self.observation_space.low[0, 0, 0], self.observation_space.high[0, 0, 0],
-                                     [40, 48, 1]  # Channel, Width, Height
+                                     [48, 48, 1]  # Height, Width, Channel
                                      )
 
     def observation(self, observation):
-        I = observation[0:80]  # crop
+        # I = observation[0:80]  # crop
+        I = observation
         I = 0.2989 * I[:, :, 0] + 0.5879 * I[:, :, 1] + 0.1140 * I[:, :, 2]  # Grey Image
         I = I[::2, ::2]  # down sample by factor of 2
 
@@ -122,14 +124,14 @@ env = dummy_vec_env.DummyVecEnv([lambda: env])
 print(env.action_space)
 print(env.observation_space)
 
-# model = PPO2.load("ppo2_carracing-v3-prep")
+# model = PPO2.load("ppo2_carracing-v1")
 # model.set_env(env)
 
 
-model = PPO2(CnnPolicy, env, verbose=2, full_tensorboard_log='ppo2_carracing_tensorboard')
+model = PPO2(CnnPolicy, env, verbose=2, full_tensorboard_log='./ppo2_carracing_tensorboard/')
 # model = PPO2(CnnPolicy, env, verbose=1)
 
-model.learn(total_timesteps=10000)
+model.learn(total_timesteps=1000)
 
 model.save("ppo2_carracing-v1")
 
@@ -138,5 +140,7 @@ obs = env.reset()
 while True:
     action, _states = model.predict(obs)
     obs, rewards, dones, info = env.step(action)
+    # print(obs)
+    plt.imshow(obs[:, :, 3], cmap='gray')
     env.render()
 
