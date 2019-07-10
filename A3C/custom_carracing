@@ -1,0 +1,60 @@
+import gym
+import numpy as np
+import cv2
+
+class CustomCarRacing:
+    def __init__(self, skip_actions=6, num_frames=4, w=42, h=42):
+        # skip_actions: the number of frames to repeat an action for
+        # num_frames: the number of frames to stack in one state
+        # w: width of the state input
+        # h: height of the state input.
+        self.env = gym.make("CarRacing-v0")
+        self.num_frames = num_frames
+        self.skip_actions = skip_actions
+        self.w = w
+        self.h = h
+
+        # No action, turn right, turn left, accelerate, brake, respectively.
+        self.action_space = [[0, 0, 0], [1, 0, 0], [-1, 0, 0], [0, 1, 0], [0, 0, 0.8]]
+        self.action_size = len(self.action_space)
+        self.state = None
+
+    # Preprocess the input and stack the frames.
+    def preprocess(self, obs, is_start=False):
+        frame = cv2.cvtColor(obs, cv2.COLOR_RGB2GRAY)
+        # Save image
+        # cv2.imwrite('color_img.jpg', frame)
+        # Resize the image to w x h and scale to between 0 and 1
+        frame = cv2.resize(frame, (self.w, self.w), interpolation=cv2.INTER_AREA)
+        # Next reshape the image to a 4D array with 1st and 4th dimensions of size 1
+        frame = frame.reshape(1, frame.shape[0], frame.shape[1], 1)
+        # Now stack the frames. If this is the first frame, then repeat it num_frames times.
+        if is_start or self.state is None:
+            self.state = np.repeat(frame, self.num_frames, axis=3)
+        else:
+            self.state = np.append(frame, self.state[:, :, :, :self.num_frames - 1], axis=3)
+        return self.state
+
+    # Render the current frame
+    def render(self):
+        self.env.render()
+
+    # Reset the environment and return the state.
+    def reset(self):
+        return self.preprocess(self.env.reset(), is_start=True)
+
+    # Step the environment with the given action
+    def step(self, action_idx):
+        action = self.action_space[action_idx]
+        accum_reward = 0
+        prev_s = None
+        for _ in range(self.skip_actions):
+            s, r, term, info = self.env.step(action)
+            accum_reward += r
+            if term:
+                break
+            prev_s = s
+
+        if prev_s is not None:
+            s = np.maximum.reduce([s, prev_s])
+        return self.preprocess(s), accum_reward, term, info
