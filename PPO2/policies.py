@@ -41,6 +41,23 @@ def small_cnn(scaled_images, **kwargs):
     layer_2 = conv_to_fc(layer_2)
     return activ(linear(layer_2, 'fc1', n_hidden=128, init_scale=np.sqrt(2)))
 
+def world_model_cnn(scaled_images, **kwargs):
+    """
+    CNN from Nature paper.
+
+    :param scaled_images: (TensorFlow Tensor) Image input placeholder
+    :param kwargs: (dict) Extra keywords parameters for the convolutional layers of the CNN
+    :return: (TensorFlow Tensor) The CNN output layer
+    """
+    activ = tf.nn.relu
+    layer_1 = activ(conv(scaled_images, 'c1', n_filters=32, filter_size=4, stride=2, init_scale=np.sqrt(2), **kwargs))
+    layer_2 = activ(conv(layer_1, 'c2', n_filters=64, filter_size=4, stride=2, init_scale=np.sqrt(2), **kwargs))
+    layer_3 = activ(conv(layer_2, 'c3', n_filters=128, filter_size=4, stride=2, init_scale=np.sqrt(2), **kwargs))
+    layer_4 = activ(conv(layer_3, 'c4', n_filters=256, filter_size=4, stride=2, init_scale=np.sqrt(2), **kwargs))
+
+    layer_4 = conv_to_fc(layer_4)
+    return activ(linear(layer_4, 'fc1', n_hidden=128, init_scale=np.sqrt(2)))
+
 def mlp_extractor(flat_observations, net_arch, act_fun):
     """
     Constructs an MLP that receives observations as an input and outputs a latent representation for the policy and
