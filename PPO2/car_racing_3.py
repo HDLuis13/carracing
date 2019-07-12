@@ -22,7 +22,7 @@ from torchvision import datasets
 
 from PIL import Image
 
-from vae import VAE
+from gym.envs.box2d.vae import VAE
 from torchvision.utils import save_image
 from IPython.core.display import Image, display
 from skimage.color import rgb2gray
@@ -139,7 +139,7 @@ class CarRacing3(gym.Env, EzPickle):
         self._set_config(**kwargs)
         self.steps = 0
 
-    def _set_config(self, grayscale=True, vae_input=False, skip_frames=3, num_stack=4, continuous=True, render_on_learn=False):
+    def _set_config(self, grayscale=True, vae_input=False, vae_path='/fzi/ids/habenich/no_backup/env_v/env_v4/lib/python3.5/site-packages/gym/envs/box2d/vae_gray.torch', skip_frames=3, num_stack=4, continuous=True, render_on_learn=False):
 
         self.grayscale = grayscale
         self.vae_input = vae_input
@@ -147,10 +147,10 @@ class CarRacing3(gym.Env, EzPickle):
         self.num_stack = num_stack
         self.continuous = continuous
         self.render_on_learn = render_on_learn
-
-        device = torch.device('cpu')
-        self.vae_model = VAE(image_channels=3).to(device)
-        self.vae_model.load_state_dict(torch.load('./PPO2/vae_gray.torch', map_location='cpu'))
+        if self.vae_input:
+            device = torch.device('cpu')
+            self.vae_model = VAE(image_channels=3).to(device)
+            self.vae_model.load_state_dict(torch.load(vae_path, map_location='cpu'))
 
 
         if (num_stack>1):
@@ -205,6 +205,7 @@ class CarRacing3(gym.Env, EzPickle):
             if self.grayscale:
                 # Maybe change function
                 s = rgb2gray(s)
+                
                 if self.num_stack > 1:
                     # Next reshape the image to a 4D array with 1st and 4th dimensions of size 1
                     s = s.reshape(1, s.shape[0], s.shape[1], 1)
@@ -217,7 +218,12 @@ class CarRacing3(gym.Env, EzPickle):
 
                     self.observation_space = spaces.Box(low=0, high=255, shape=self.state.shape, dtype=np.uint8)
                 else: 
-                    s = self.state
+                    s = s.reshape(s.shape[0], s.shape[1], 1)
+                    self.state = s
+            else:
+                self.observation_space = spaces.Box(low=-2, high=2, shape=(80, 80, 3), dtype=np.float32)
+                self.state = s
+                
 
         return self.state
 
