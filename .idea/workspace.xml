@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8559c85e-566d-402e-a3e6-e0509f448325" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/carracing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/carracing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t_log/ppo2_no_prep_1mio.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PPO2/ppo2_carracing.py" beforeDir="false" afterPath="$PROJECT_DIR$/PPO2/ppo2_carracing.py" afterDir="false" />
     </list>
@@ -42,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PPO2/ppo2_carracing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+            <state relative-caret-position="179">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -52,7 +50,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/values.csv">
+        <entry file="file://$PROJECT_DIR$/images/compare_500000/values.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-11916">
               <caret line="151" column="10" selection-start-line="151" selection-start-column="10" selection-end-line="151" selection-end-column="10" />
@@ -64,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -143,7 +141,7 @@
             <path>
               <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
               <item name="carracing" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="t_log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
@@ -249,25 +247,25 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/custom_carracing" />
-      <recent name="$PROJECT_DIR$/PPO2" />
-      <recent name="$PROJECT_DIR$/vae" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/backup" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/t_log" />
       <recent name="$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/common" />
       <recent name="$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/gym/envs/box2d" />
       <recent name="$PROJECT_DIR$/PPO2" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/compare_500000" />
+      <recent name="$PROJECT_DIR$/custom_carracing" />
+      <recent name="$PROJECT_DIR$/PPO2" />
       <recent name="$PROJECT_DIR$/vae" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -295,7 +293,7 @@
       <workItem from="1562620113004" duration="3962000" />
       <workItem from="1562770885000" duration="16446000" />
       <workItem from="1562879324660" duration="3054000" />
-      <workItem from="1564131947970" duration="5729000" />
+      <workItem from="1564131947970" duration="6691000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1564134940208</created>
@@ -308,12 +306,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31035000" />
+    <option name="totallyTimeSpent" value="31997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="950" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -327,9 +325,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Jupyter" order="10" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4991699" visible="true" weight="0.37149817" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4991699" visible="true" weight="0.37149817" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5008301" side_tool="true" visible="true" weight="0.37149817" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5008301" side_tool="true" weight="0.37149817" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -591,40 +589,40 @@
     <entry file="file://$PROJECT_DIR$/sample_image_frame50.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/50.png">
+    <entry file="file://$PROJECT_DIR$/images/compare_500000/50.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/400.png">
+    <entry file="file://$PROJECT_DIR$/images/compare_500000/400.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/300.png">
+    <entry file="file://$PROJECT_DIR$/images/compare_500000/300.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/150.png">
+    <entry file="file://$PROJECT_DIR$/images/compare_500000/150.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/200.png">
+    <entry file="file://$PROJECT_DIR$/images/compare_500000/200.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/250.png">
+    <entry file="file://$PROJECT_DIR$/images/compare_500000/250.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/500.png">
+    <entry file="file://$PROJECT_DIR$/images/compare_500000/500.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/600.png">
+    <entry file="file://$PROJECT_DIR$/images/compare_500000/600.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/700.png">
+    <entry file="file://$PROJECT_DIR$/images/compare_500000/700.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/800.png">
+    <entry file="file://$PROJECT_DIR$/images/compare_500000/800.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/950.png">
+    <entry file="file://$PROJECT_DIR$/images/compare_500000/950.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/values.csv">
+    <entry file="file://$PROJECT_DIR$/images/compare_500000/values.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11916">
           <caret line="151" column="10" selection-start-line="151" selection-start-column="10" selection-end-line="151" selection-end-column="10" />
@@ -634,14 +632,14 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PPO2/ppo2_carracing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        <state relative-caret-position="179">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>

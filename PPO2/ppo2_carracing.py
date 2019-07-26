@@ -29,7 +29,7 @@ env = DummyVecEnv([lambda: env])
 
 # Enjoy trained agent
 
-model = PPO2.load("./t_log/ppo2_compare_stable_100000.pkl", env=env, verbose=2)
+model = PPO2.load("./t_log/ppo2_no_prep_1mio.pkl", env=env, verbose=2)
 # model.learn(total_timesteps=1000000, tb_log_name="testing")
 
 
