@@ -2,74 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8559c85e-566d-402e-a3e6-e0509f448325" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_1000000_v2.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_1000000_v2_0/events.out.tfevents.1562785415.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_100000_v2.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_100000_v2_1/events.out.tfevents.1562771994.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_200000_v2.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_200000_v2_0/events.out.tfevents.1562773629.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_300000_v2.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_300000_v2_0/events.out.tfevents.1562775103.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_400000_v2.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_400000_v2_0/events.out.tfevents.1562776571.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_500000_v2.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_500000_v2_0/events.out.tfevents.1562778043.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_600000_v2.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_600000_v2_0/events.out.tfevents.1562779517.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_700000_v2.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_700000_v2_0/events.out.tfevents.1562780987.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_800000_v2.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_800000_v2_0/events.out.tfevents.1562782462.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_900000_v2.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_compare_stable_900000_v2_0/events.out.tfevents.1562783929.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_100000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_1000000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_1000000_0/events.out.tfevents.1562883968.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_100000_1/events.out.tfevents.1562844098.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_100000_2/events.out.tfevents.1562844785.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_200000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_200000_0/events.out.tfevents.1562848631.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_200000_1/events.out.tfevents.1562852327.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_300000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_300000_0/events.out.tfevents.1562856325.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_400000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_400000_0/events.out.tfevents.1562860143.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_500000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_500000_0/events.out.tfevents.1562864357.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_600000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_600000_0/events.out.tfevents.1562868562.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_700000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_700000_0/events.out.tfevents.1562872769.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_800000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_800000_0/events.out.tfevents.1562876990.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_900000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_900000_0/events.out.tfevents.1562880539.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_sf3_ns4_steps2048_{}&quot;.format(timesteps_total)_1/events.out.tfevents.1562844031.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_100000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_1000000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_1000000_0/events.out.tfevents.1562875677.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_100000_1/events.out.tfevents.1562858316.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_200000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_200000_0/events.out.tfevents.1562860229.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_300000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_300000_0/events.out.tfevents.1562862148.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_400000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_400000_0/events.out.tfevents.1562864076.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_500000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_500000_0/events.out.tfevents.1562865999.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_600000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_600000_0/events.out.tfevents.1562867936.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_700000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_700000_0/events.out.tfevents.1562869873.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_800000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_800000_0/events.out.tfevents.1562871807.ids-duo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_900000.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t_log/ppo2_vae_v2_900000_0/events.out.tfevents.1562873742.ids-duo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/carracing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/carracing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PPO2/car_racing_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/PPO2/car_racing_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PPO2/ppo2_carracing.py" beforeDir="false" afterPath="$PROJECT_DIR$/PPO2/ppo2_carracing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PPO2/ppo2_carracing_play.py" beforeDir="false" afterPath="$PROJECT_DIR$/PPO2/ppo2_carracing_play.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vae/generate-rollouts.py" beforeDir="false" afterPath="$PROJECT_DIR$/vae/generate-rollouts.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,31 +31,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/gym/envs/box2d/car_racing_3.py">
+        <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/ppo2/ppo2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="378" column="97" selection-start-line="378" selection-start-column="97" selection-end-line="378" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PPO2/car_racing_3.py">
+        <entry file="file://$PROJECT_DIR$/PPO2/ppo2_carracing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="421" column="27" selection-start-line="421" selection-start-column="27" selection-end-line="421" selection-end-column="27" />
+            <state relative-caret-position="240">
+              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vae/generate-rollouts.py">
+        <entry file="file://$PROJECT_DIR$/images/values.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="-11916">
+              <caret line="151" column="10" selection-start-line="151" selection-start-column="10" selection-end-line="151" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/gail/dataset/record_expert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="13" column="70" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -133,6 +88,16 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>high</find>
+      <find>ob_spac</find>
+      <find>obser</find>
+      <find>cv2</find>
+      <find>image_ext</find>
+      <find>image_fol</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -142,19 +107,26 @@
         <option value="$PROJECT_DIR$/vae.ipynb" />
         <option value="$PROJECT_DIR$/vae.py" />
         <option value="$PROJECT_DIR$/vae_pytorch.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/PPO2/CarRacing_custom_wrapper.py" />
         <option value="$PROJECT_DIR$/PPO2/vae.py" />
         <option value="$PROJECT_DIR$/PPO2/test_env.py" />
         <option value="$PROJECT_DIR$/PPO2/car_racing_3.py" />
         <option value="$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/gym/envs/box2d/car_racing_3.py" />
+        <option value="$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/gym/envs/__init__.py" />
+        <option value="$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/gym/envs/box2d/__init__.py" />
+        <option value="$PROJECT_DIR$/PPO2/ppo2_carracing_play.py" />
+        <option value="$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/common/base_class.py" />
+        <option value="$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/ppo2/ppo2.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/PPO2/ppo2_carracing.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="2">
-    <option name="x" value="-4" />
-    <option name="width" value="1928" />
-    <option name="height" value="1164" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="22" />
+    <option name="y" value="11" />
+    <option name="width" value="618" />
+    <option name="height" value="443" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -171,17 +143,7 @@
             <path>
               <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
               <item name="carracing" type="462c0819:PsiDirectoryNode" />
-              <item name="A2C" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carracing" type="462c0819:PsiDirectoryNode" />
-              <item name="DQN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carracing" type="462c0819:PsiDirectoryNode" />
-              <item name="PPO2" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
@@ -190,25 +152,34 @@
             <path>
               <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (env_v4) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; Python 3.6 (mlp3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (env_v4) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; Python 3.6 (mlp3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (mlp3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
               <item name="site-packages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (env_v4) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; Python 3.6 (mlp3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
               <item name="site-packages" type="462c0819:PsiDirectoryNode" />
               <item name="gym" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (env_v4) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; Python 3.6 (mlp3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
               <item name="site-packages" type="462c0819:PsiDirectoryNode" />
               <item name="gym" type="462c0819:PsiDirectoryNode" />
               <item name="envs" type="462c0819:PsiDirectoryNode" />
@@ -216,11 +187,57 @@
             <path>
               <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (env_v4) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; Python 3.6 (mlp3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
               <item name="site-packages" type="462c0819:PsiDirectoryNode" />
               <item name="gym" type="462c0819:PsiDirectoryNode" />
               <item name="envs" type="462c0819:PsiDirectoryNode" />
               <item name="box2d" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (mlp3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (mlp3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (mlp3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+              <item name="envs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (mlp3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+              <item name="envs" type="462c0819:PsiDirectoryNode" />
+              <item name="box2d" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (mlp3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="stable_baselines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (mlp3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="stable_baselines" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,24 +249,25 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PPO2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/common" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/vae" />
-      <recent name="$PROJECT_DIR$/PPO2" />
-      <recent name="$PROJECT_DIR$/carracing_screenshots" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/custom_carracing" />
       <recent name="$PROJECT_DIR$/PPO2" />
       <recent name="$PROJECT_DIR$/vae" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/backup" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/common" />
+      <recent name="$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/gym/envs/box2d" />
+      <recent name="$PROJECT_DIR$/PPO2" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/vae" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -275,18 +293,27 @@
       <option name="presentableId" value="Default" />
       <updated>1562620111756</updated>
       <workItem from="1562620113004" duration="3962000" />
-      <workItem from="1562770885000" duration="16692000" />
-      <workItem from="1562932283509" duration="540000" />
+      <workItem from="1562770885000" duration="16446000" />
+      <workItem from="1562879324660" duration="3054000" />
+      <workItem from="1564131947970" duration="5729000" />
     </task>
+    <task id="LOCAL-00001" summary="gitignore">
+      <created>1564134940208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564134940208</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22191000" />
+    <option name="totallyTimeSpent" value="31035000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1928" height="1164" extended-state="2" />
+    <frame x="67" y="25" width="1853" height="950" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14941302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -300,52 +327,48 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Jupyter" order="10" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4997233" visible="true" weight="0.23062016" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4991699" visible="true" weight="0.37149817" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5008301" side_tool="true" visible="true" weight="0.37149817" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32977587" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Jupyter" order="10" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4997233" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5002767" side_tool="true" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.32977587" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32977587" />
       <window_info anchor="right" id="Database" order="4" weight="0.32977587" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/stable_baselines/a2c/a2c.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3615">
-          <caret line="254" column="80" selection-start-line="254" selection-start-column="80" selection-end-line="254" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/tensorflow/python/summary/writer/writer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="119" column="29" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vae_pytorch.py" />
-    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/tensorflow/core/framework/summary_pb2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7620">
-          <caret line="508" selection-start-line="508" selection-end-line="508" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/gym/envs/box2d/car_racing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2055">
-          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backup/test_env.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -362,38 +385,23 @@
     <entry file="file://$PROJECT_DIR$/backup/vae.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/stable_baselines/ppo2/ppo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5430">
-          <caret line="375" column="38" selection-start-line="375" selection-start-column="38" selection-end-line="375" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/gym/envs/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/stable_baselines/ppo2/ppo2.py" />
+    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/gym/envs/__init__.py" />
     <entry file="file://$PROJECT_DIR$/A2C/a2c.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/gym/core.py">
+    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/gym/core.py" />
+    <entry file="file://$PROJECT_DIR$/PPO2/vae.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="275" selection-start-line="275" selection-end-line="275" />
+        <state relative-caret-position="-45">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/stable_baselines/common/policies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="674" column="6" selection-start-line="674" selection-start-column="6" selection-end-line="674" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/stable_baselines/common/policies.py" />
     <entry file="file://$PROJECT_DIR$/backup/vae.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-435">
@@ -427,6 +435,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vae/generate-rollouts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PPO2/ppo2_vae.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -449,40 +464,187 @@
     <entry file="file://$PROJECT_DIR$/sample_image_frame40.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample_image_frame50.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample_image_frame0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PPO2/vae.py">
+    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/gym/envs/box2d/car_racing_3.py" />
+    <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/gym/envs/box2d/car_racing_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vae/generate-rollouts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../env_v/env_v4/lib/python3.5/site-packages/gym/envs/box2d/car_racing_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
+        <state relative-caret-position="-1980">
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/tensorflow/python/keras/layers/convolutional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="788" column="10" selection-start-line="788" selection-start-column="6" selection-end-line="788" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/common/policies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="139" column="36" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPO2/policies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPO2/ppo2_carracing_custom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/Box2D/Box2D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6510">
+          <caret line="434" selection-start-line="434" selection-end-line="434" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/gym/envs/registration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/gym/envs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PPO2/car_racing_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
+        <state relative-caret-position="5895">
           <caret line="421" column="27" selection-start-line="421" selection-start-column="27" selection-end-line="421" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/gym/envs/box2d/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPO2/ppo2_carracing_play.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/bench/monitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" selection-start-line="31" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/common/base_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="580" column="23" selection-start-line="580" selection-start-column="23" selection-end-line="580" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/ppo2/ppo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="378" column="97" selection-start-line="378" selection-start-column="97" selection-end-line="378" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/mlp3.6/lib/python3.6/site-packages/stable_baselines/gail/dataset/record_expert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_image_frame50.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/50.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/400.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/300.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/150.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/200.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/250.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/500.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/600.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/700.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/800.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/950.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/values.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11916">
+          <caret line="151" column="10" selection-start-line="151" selection-start-column="10" selection-end-line="151" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PPO2/ppo2_carracing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
